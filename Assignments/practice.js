@@ -4,3 +4,4 @@ console.log(3 > 2)
 console.log(true ? 1 : 2)
 console.log("5" + 1)
 
+console.log(11%2)
