@@ -25,7 +25,7 @@ function fourthOfJuly(fruityLove){
 console.log(fourthOfJuly(fruits[3]))
 
 function lastFruit(pulp){
-    return pulp.pop()
+    return pulp.pop() //use indexing (.length-1)
 }
 console.log(lastFruit(fruits))
 

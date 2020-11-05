@@ -65,7 +65,7 @@ let countries = ['Mexico', 'Canada', 'Italy', 'United Kingdom', 'Thailand', 'Ind
 function lastElement(comebackKid){
     return `the last element in the array is ${comebackKid}`
 }
-console.log(lastElement(countries[5]))
+console.log(lastElement(countries[5])) //use indexing (.length - 1)
 
 function favoriteCountry(poopyHead){
     poopyHead.unshift('United States')
