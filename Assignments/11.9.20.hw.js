@@ -50,8 +50,10 @@ console.log(doorKnob(snowBall))
 let emancipationProclamation = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 function riceCake (emancipationProclamation){ 
-    for (let i = 0; i <= 17; i++2){
-        console.log([i])
+    for (let i = 0; i <= 10; i++){
+        if (i % 2 === 0){
+            console.log(i)
+        }    
     }
     return 'Done!'
 }
