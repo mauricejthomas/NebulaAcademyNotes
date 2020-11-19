@@ -1,81 +1,58 @@
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-
-// LOOPING THROUGH AN ARRAY
-let numArray = [12, 3, 5, 12, 5, 23, 8, 4] 
-
-function iterateArrays (practiceArray){
-    for (let i = 0; i <= practiceArray.length - 1; i++){
-         
-
-         console.log(practiceArray[i]) 
-     }
-     return 'It is done!!'
- }
-
- console.log(iterateArrays(numArray))
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- // given a string: let 'software decelopment'
-// create a function that iterates through the string and log each chracter 
- let practiceString = 'software development'
-
-// Create a function that takes in a string.
-// This function will loop through the string and log the indices of each character in the string.
-// After the indices are logged, return the string, 'Done!'
-function StringCharacters (param){
-    for (let i = 0; i < param.length; i++){
-        console.log(param[i]) 
-    } return 'Done!'
-}
-console.log(StringCharacters('another string'))
-//a
-// n
-// o
-// t
-// h
-// e
-// r
-
-// s
-// t
-// r
-// i
-// n
-// g
-// Done!
-
-// Create a function that only logs the even numbers from 1-10
-// // After the even numbers are logged, return the string, 'Done!'
-function EvenNum (){ 
-    for (let i = 0; i <= 10; i++){
-        if (i % 2 === 0){
-            console.log(i)
+function practiceProblem (snipe){
+        for (let i = 0; i < arr.length; i++){
+            console.log(mat.a)
+        if (arr[i] > 20){
+            console.log(arr[i])
+        } else {
+            console.log('number does not satisfy')
         }
-    } 
-    return 'Done!'
+    }
+    return 'is it working'
 }
-console.log(EvenNum())
-//0
-// 2
-// 4
-// 6
-// 8
-// 10
-// Done!
+console.log(onlyGreaterThanTwenty(numArray))
+
+// add all of the numbers in the array
+function addNums (array){
+
+}
+console.log(addNums(array))
+// add only the odd numbers in the array
+
+// count how many numbers are even in the array
+
+// add the numbers that are NOT divisible by 3
 
 
+// Part 1
 
+let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2]
 
+// Problem # 1
+// Using the array above, create a function that loops through the array and return a new array with only the odd numbers
 
+function problemArray(arrayProblem){
+    for (let i = 0; i <= arrayProblem.length; i++){
+       if (i % 2 === 1)
+       console.log(arrayProblem[i], 'Odd')
+   }
+   return arrayProblem
+}
+console.log(problemArray(numArray))    
+
+// Problem # 2
+
+// Using the array above, loop through the array and COUNT the amount of even numbers that are in the array
+function problemArray(arrayProblem){
+    let placeholder = []
+    for (let i = 0; i <= arrayProblem.length; i++){
+       if (arrayProblem[i] % 2 === 0)
+       console.log([i])
+   }
+   return arrayProblem
+ 
+console.log(problemArray(numArray))
 
 
 
