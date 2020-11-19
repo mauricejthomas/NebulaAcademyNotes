@@ -109,14 +109,15 @@ console.log(cars.split(``, 3))// ['b', 'e', 'a']
 console.log(cars.split('e'))// ['b', 'am', 'r b' 'nz b'...etc]
 console.log(cars.split(' '))// ['beamer', 'benz', 'bentley',...etc]
 
-let fullName = 'Maurice Thomas';
-console.log(fullName.split(' '));// ['Maurice', 'Thomas']
+let Name = 'Maurice Thomas';
+let fullName = Name.split(' ')
+console.log(fullName,'SPLIT');// ['Maurice', 'Thomas']
 let firstName = fullName[0]
 let lastName = fullName[1]
 console.log(firstName[0])//M
-console.log(lastName[0])//a?------------------------------------------------------
-console.log(firstName)//M?--------------------------------------------------------
-console.log(lastName)//a?---------------------------------------------------------
+console.log(lastName[0])//T
+console.log(firstName)// Maurice
+console.log(lastName)// Thomas
 
 // .slice(startingIndex, endingIndex): extracts a section of a string and returns it as a new string, without modifying the original string.
 let python = 'I want to learn to code'
@@ -127,12 +128,13 @@ console.log(python.slice(0, -6))// I want to learn t
 
 // .substr(startingIndex, characterCount): returns a portion of the string, starting at the specified index and extending for a given number of characters afterwords.
 let technology = 'figuring out how to code is important'
-console.log(technology.substr(0, 7))//figurin
-console.log(technology.substr(7, 7))//g out h
-console.log(technology.substr(15, 9))//w to code
-console.log(typeof technology.substr(25, 5), 'typeof class')//string typeof class---------------------------------------------
+console.log(technology.substr(0, 7))// figurin
+console.log(technology.substr(7, 7))// g out h
+console.log(technology.substr(15, 9))// w to code
+console.log(typeof technology.substr(25, 5))//  string
 
 //Number(string number):turns string of number into a number
 console.log(Number(`10`))//10
 console.log(typeof '10')//string
 console.log(typeof Number('10'))//number
+
