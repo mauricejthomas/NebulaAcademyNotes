@@ -136,5 +136,5 @@ console.log(typeof technology.substr(25, 5))//  string
 //Number(string number):turns string of number into a number
 console.log(Number(`10`))//10
 console.log(typeof '10')//string
-console.log(typeof Number('10'))//number
+console.log(typeof Number('10'))//number.
 
