@@ -31,16 +31,17 @@ console.log(problemArray(numArray))
 
 // We create a function (minnie), with a parameter named (mickey)
 function minnie (mickey){
-    let plizzy = []
+// We create a placeholder that starts at zero    
+    let plizzy = 0
 // Once again, we create a 'for' loop that loops through the numArray
     for (let i = 0; i <= mickey.length; i++){
 // We create a condition that if the element within  the array has a remainder of 0        
         if (mickey[i] % 2 === 0)
 // We push all even elements found in the array to the new array, which is (plizzy)        
-        plizzy.push(mickey[i])    
+        plizzy += 1    
     }
 // We return length of the new array, which consists of only even numbers    
-    return plizzy.length 
+    return plizzy 
 }
 console.log(minnie(numArray))
 
@@ -53,14 +54,10 @@ function curry (chicken){
 // We start by creating a variable equal to zero within the function
     let sum = 0
 // We create a 'for' loop with the conditions that it begins at the first index and loops through the length of the array until it reaches the end.    
-    for (let i = 0; i <= chicken.length; i++){ 
-// Create an 'if' statement that will make sure loop catches every number
-            if (chicken[i] % 2 === 1 || chicken[i] % 2 === 0){
-// If the number applies (which all numbers will), it will be added to the previous total                 
+    for (let i = 0; i < chicken.length; i++){ 
+// Add each number in the loop to the placeholder (sum)                
                 sum += chicken[i]
             }
-      
-    }
 // Return the final total    
     return sum
 }
