@@ -15,9 +15,9 @@
 // SYNTAX---------------------------------------------------
 
 // Multi line syntax:
-   // function functionName(parameters){
-        // do something 
-        // return something
+// function functionName(parameters){
+    // do something 
+    // return something
 // }
 // Syntax for invocation with an argument
 // console.log(functionName(arguments))
