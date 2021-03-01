@@ -1,6 +1,4 @@
 // Problem 1- Larger Product or Sum
-
-
 // Function (sumOrProduct) and parameters (array, n) are given.
 function sumOrProduct(array, n) {
 // Create variable for the array length 
@@ -28,68 +26,56 @@ function sumOrProduct(array, n) {
   return 'same';
 }
 console.log(sumOrProduct)
-
-
 // Problem 2- Simple directions reversal
-
-
 // The function (solve) and parameter (arr) are given
 function solve(arr){
-  // Create variable (up) that will serve as a placeholder for first array  
+// Create variable (up) that will serve as a placeholder for first array  
     let up = [];
-  // Create variable (down) that will serve as a placeholder for second array  
+// Create variable (down) that will serve as a placeholder for second array  
     let down = [];
-  // Create 'for' loop that starts at first index, and loops through the length of array until we reach the end  
+// Create 'for' loop that starts at first index, and loops through the length of array until we reach the end  
     for (let i = 0; i < arr.length; i++){
-  // Create variable (forward) that returns the index of element ('on') in array     
+// Create variable (forward) that returns the index of element ('on') in array     
       let forward = arr[i].indexOf('on ');
       console.log(forward)
-  // Push the first two words in the array into first variable ('[i] on')     
+// Push the first two words in the array into first variable ('[i] on')     
       up.push(arr[i].slice(0, forward));
   
       down.push(arr[i].slice(forward+2, arr[i].length))
       }
-  // Create condition that if the length of the first array (up) is greater than one  
+// Create condition that if the length of the first array (up) is greater than one  
     if (up.length > 1){
-  // Create a 'for' loop that starts at the beginning of the array, and loops through the length of the new first array (up) 
+// Create a 'for' loop that starts at the beginning of the array, and loops through the length of the new first array (up) 
       for (let i = 0; i < up.length; i++){
-  // Create condition that if indice of first new array (up) is strictly equal to 'Left'     
+// Create condition that if indice of first new array (up) is strictly equal to 'Left'     
         if (up[i] === 'Left ' ){
-  // Indice of first array equals 'Right'        
+// Indice of first array equals 'Right'        
         up[i] = 'Right '
           } 
-  // Otherwise if indice of first new array (up) is strictly equal to 'Right'      
+// Otherwise if indice of first new array (up) is strictly equal to 'Right'      
         else if (up[i] === 'Right ') {
-  // Then the indice in first array = 'Left'        
+// Then the indice in first array = 'Left'        
           up[i] = 'Left '
           }
         }
       }
     up.shift()
     up.push('Begin ')
-    // Placeholder variable
+// Placeholder variable
     let backward = [];
-    // Create for loop 
+// Create for loop 
     for (let i = 0; i < up.length; i++){
       
       backward.push(up[i] + 'on' + down[i])
      }
-  // Return the array in reverse order
+// Return the array in reverse order
     return backward.reverse()
   }
-
-
 // Problem 3
-
-
 // Function (lifePathNumber) and parameter (dateOfBirth) are given
 function lifePathNumber(dateOfBirth) {
 // Couldn't figure this one out
-
-
 // Problem 4
-
-
 // The function (maxNumber) and parameter (n) are given
 function maxNumber(n){
 // Take the the string of n, divide it into substrings, turn it into an array, sort the elements of the array from least to greatest, reverse the order of elements and join them back together. Then return result as a number
