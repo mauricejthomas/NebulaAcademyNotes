@@ -1,0 +1,103 @@
+/*.frame{
+    margin: 10px;
+    border-style: groove;
+    border-color: black;
+}
+
+body{
+    background-image: url('scales.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}*/
+
+.centerpiece{
+    display: flex;
+    justify-content: center;
+}
+
+.baby{
+    border-style: solid;
+    border-width:50px;
+}
+
+.ketchup{
+    position: relative;
+    bottom: 561px ;
+    left: 114px;
+}
+
+.mustard{
+    position: relative;
+    bottom: 740px;
+    left: 475px;
+}
+
+#calculator {
+    position: relative;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 10px;
+    
+    right: 706px;
+    top: 220px;
+  }
+  
+  #content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  #screen {
+    position: relative;
+    width: 300px;
+    height: 70px;
+    /*border: 3px solid;
+    border-radius: 20px;
+    border-color: black;*/
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    left: 370px;
+    top: 195px;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    margin: 1px;
+    width: 5px;
+    height: 5px;
+    border: 3px solid;
+    border-radius: 5px;
+    color: white;
+    border-color:white;
+    background-color: white;
+  }
+  
+  .button:hover {
+    background-color:black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #right {
+    border-color: white;
+  }
+  
+  #top {
+    border-color: white;
+  }
+  
+  #zero {
+    
+  }
