@@ -1,5 +1,4 @@
 // Problem 1- Larger Product or Sum
-
 // Function (sumOrProduct) and parameters (array, n) are given.
 function sumOrProduct(array, n) {
 // Create variable for the array length 
@@ -27,9 +26,7 @@ function sumOrProduct(array, n) {
   return 'same';
 }
 console.log(sumOrProduct)
-
 // Problem 2- Simple directions reversal
-
 // The function (solve) and parameter (arr) are given
 function solve(arr){
 // Create variable (up) that will serve as a placeholder for first array  
@@ -74,23 +71,11 @@ function solve(arr){
 // Return the array in reverse order
     return backward.reverse()
   }
-
 // Problem 3
-
 // Function (lifePathNumber) and parameter (dateOfBirth) are given
 function lifePathNumber(dateOfBirth) {
-// Create variable that splits the paramter and concatenates it as a new string
-  let makeItWork = dateOfBirth.split("-").join("");
-// Create condition that adds all of the elements in the string using reducer function while variable is greater than 9  
-  do{
-    makeItWork = (""+makeItWork).split("").reduce((m,t) => +m+ +t);
-  }while(makeItWork > 9);
-// Return the variable
-  return makeItWork;
-}
-
+// Couldn't figure this one out
 // Problem 4
-
 // The function (maxNumber) and parameter (n) are given
 function maxNumber(n){
 // Take the the string of n, divide it into substrings, turn it into an array, sort the elements of the array from least to greatest, reverse the order of elements and join them back together. Then return result as a number

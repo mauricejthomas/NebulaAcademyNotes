@@ -18,5 +18,5 @@ console.log(typeof NaN)
  console.log(fruits)
 
  console.log(fruits.push('banana'))
- console.log(fruits)
+ console.log(fruits) 
  
