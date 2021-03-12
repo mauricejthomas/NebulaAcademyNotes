@@ -9,5 +9,4 @@ function elevatorDistance(array) {
       placeHolder += Math.abs(array[i] - array[i + 1]);
     }
 // Return placeholder    
-    return placeHolder;
-}    
+    return placeHolder
