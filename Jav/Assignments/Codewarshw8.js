@@ -84,4 +84,3 @@ function points(games) {
 // Return placeholder end value    
     return placeHolder
   }
-  
