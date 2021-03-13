@@ -8,5 +8,5 @@ function elevatorDistance(array) {
     for (let i = 0; i < array.length - 1; i++) {
       placeHolder += Math.abs(array[i] - array[i + 1]);
     }
-// Return placeholder    
+// Return placeholder
     return placeHolder
