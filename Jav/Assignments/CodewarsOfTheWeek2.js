@@ -1,4 +1,3 @@
-
 // Function (gridIndex) and parameters (grid, indices) are given
 function gridIndex(grid, indices) {
 // Create variable to concatenate the grid into one large array.    
