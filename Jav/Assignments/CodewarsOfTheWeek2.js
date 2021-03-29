@@ -12,3 +12,4 @@ function gridIndex(grid, indices) {
     }
 // Return final outcome    
     return placeHolder
+}    
