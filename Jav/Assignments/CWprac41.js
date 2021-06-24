@@ -1,10 +1,6 @@
-// Pre-FizzBuzz Workout #1
+// Price of Mangoes
 
-function preFizz(n) {
-    var output = [];
-    for (var i=1; i<=n; i++)
-    {
-      output.push(i);
-    }
-    return output;
+function mango(quantity, price){
+    let freeMangos = Math.floor(quantity / 3);
+  return (quantity - freeMangos) * price;
   }

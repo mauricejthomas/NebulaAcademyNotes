@@ -1,6 +1,10 @@
-// Filter out the geese
+// Pre-FizzBuzz Workout #1
 
-function gooseFilter (birds) {
-    var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
-    return birds.filter(b => !geese.includes(b));
-  };
+function preFizz(n) {
+    var output = [];
+    for (var i=1; i<=n; i++)
+    {
+      output.push(i);
+    }
+    return output;
+  }

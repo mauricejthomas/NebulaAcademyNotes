@@ -1,4 +1,4 @@
-// git MakeUpperCase
+// MakeUpperCase
 
 function makeUpperCase(str) {
     // Code here

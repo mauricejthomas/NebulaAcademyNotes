@@ -1,6 +1,6 @@
-// Price of Mangoes
+// Holiday VIII - Duty Free
 
-function mango(quantity, price){
-    let freeMangos = Math.floor(quantity / 3);
-  return (quantity - freeMangos) * price;
+function dutyFree(normPrice, discount, hol){
+    var saving = normPrice * discount / 100;
+    return Math.floor(hol / saving);
   }
