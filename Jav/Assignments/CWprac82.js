@@ -1,4 +1,4 @@
-A wolf in sheep's clothing
+// A wolf in sheep's clothing
 
 function warnTheSheep(queue) {
     const position = queue.reverse().indexOf('wolf');
