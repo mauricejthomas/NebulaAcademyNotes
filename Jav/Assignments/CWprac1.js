@@ -1,5 +1,12 @@
-// Get the Mean Of The Array
+// Get the mean of an array
 
 function getAverage(marks){
-    return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
+
+    var total = 0;
+    for(var i = 0; i < marks.length; i++){
+      total += marks[i];
+    }
+  
+    return Math.floor(total / marks.length);
   }
+
