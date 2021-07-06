@@ -1,5 +1,9 @@
-// Grasshopper - If/else syntax debug
+// Get the mean of an array
 
-function checkAlive(health) {
-    return health > 0;
+function getAverage(marks){
+    var total = 0;
+    for(var i = 0; i < marks.length; i++){
+      total += marks[i];
+    }
+    return Math.floor(total / marks.length);
   }
