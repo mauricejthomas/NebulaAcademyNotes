@@ -1,3 +1,5 @@
-// Quarter of the year
+// Get the mean of an array
 
-const quarterOf = m => Math.ceil(m/3);
+function getAverage(marks){
+    return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
+  }
