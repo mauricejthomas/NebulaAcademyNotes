@@ -1,5 +1,5 @@
-// Return Negative
+// Get the mean of an array
 
-function makeNegative(num) {
-    return -Math.abs(num);
+function getAverage(marks){
+    return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
   }
