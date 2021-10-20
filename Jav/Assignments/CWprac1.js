@@ -1,14 +1,5 @@
-// Quarter of the year
+// Get the mean of an array
 
-const quarterOf = (month) => {
-    if (month <= 3) {
-      return 1
-    } else if (month <= 6) {
-      return 2
-    } else if (month <= 9) {
-      return 3
-    } else if (month <= 12) {
-      return 4
-    }
-    
+function getAverage(marks){
+    return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
   }
