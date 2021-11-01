@@ -1,5 +1,7 @@
-// Get the mean of an array
+// Find the smallest integer in the array
 
-function getAverage(marks){
-    return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+      return Math.min.apply(null, args);
+    }
   }
